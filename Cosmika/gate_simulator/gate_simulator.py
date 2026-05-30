@@ -24,8 +24,8 @@ from __future__ import annotations
 import numpy as np
 from typing import Callable, List, Optional
 
-from .qubit import QubitState, QuantumStateError, MAX_QUBITS
-from . import gates as G
+from ..qubit import QubitState, QuantumStateError, MAX_QUBITS
+from .. import gates as G
 
 
 class GateSimulatorError(Exception):

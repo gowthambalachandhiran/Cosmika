@@ -18,7 +18,7 @@ from copy import deepcopy
 from typing import Any, Callable, Optional
 
 from .gate_simulator import GateSimulator, GateSimulatorError
-from .qubit import QubitState
+from ..qubit import QubitState
 
 
 # =========================================================================== #
